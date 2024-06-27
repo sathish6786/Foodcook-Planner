@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+} 
+html,body{
+    background: #deebef;
+}
+@media (max-width:768px){
+    .container{
+        display: grid;
+        gap: 5px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 10% 30% 30% 10%;  
+    }
+}
+
+
+header{
+   padding: 10px;
+   text-align: center;
+   background:#A9DEF9;
+   font-family: "Poetsen One", sans-serif;
+   font-size: 30px;
+   font-weight: bold;
+}
+main{
+    margin: 20px auto;
+    padding: 30px;
+    text-align: center;
+    width: 800px;
+    box-shadow: 5px 5px 50px rgb(173, 178, 179);
+    border-radius: 3px;
+}    
+   
+#div{
+    background-color: white;
+    padding: 25px;
+    text-align: center;
+}
+    
+.alert{
+    background: white;
+    padding: 10px;
+    color: #7eef6f;
+    border-radius: 5px;
+    text-align: left;
+   font-weight: 500;
+   margin: 10px 0;
+}
+input{
+    padding: 10px;
+    outline: none;
+    background-color: #ebeff0; 
+    border: 1px solid rgb(127, 125, 125);
+}
+
+#btn{
+    margin-left: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    background: #1196ca;
+    color: #fff;
+}
+.button{
+    border: none;
+}
+.food-container{
+    margin: 20px 0;
+    background:#fff;
+    list-style: none;
+    padding: 20px;
+    text-align: left;
+}
+.food-container .food-item{
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid rgb(249, 243, 243);
+    margin: 10px 0;
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.food-container .food-item:hover{
+    background:royalblue;
+    color: #fff;
+    border-radius: 2px;
+    font-weight: bold;
+}
+#foodcount{
+    font-family:monospace;
+    font-size: large;
+    font-weight:bold;
+    color: rgb(0, 123, 255);
+    padding: 15px;
+    text-shadow: rgb(101, 175, 199) 2px -1px 5px ;
+        
+}
+
+
+/*author*/
+table{
+    margin: 50px;
+    width: 500px;
+}
+table.tr,th,td{
+    padding: 15px;
+    text-align: center;
+    font-size: larger;
+}
+table.tr,th{
+    background-color: rgb(162, 221, 255);
+    font-size:x-large;
+}
+tr.active{
+    background-color: #fcc5ea;
+}
+
+/*feedback*/
+.main{
+    background:white;
+    padding: 30px; 
+}
+form *{
+    margin: 5px;
+    width: 100%;
+}
+form input,textarea{
+    padding: 10px;
+    font-size: 12px;
+    border: 2px solid gainsboro;
+    border-radius: 4px;
+}
+form button{
+    width: 15%;
+    padding: 5px 7px;
+    background-color: royalblue;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: medium;
+    letter-spacing: 1px;
+}
+form label input,form input[type='radio']{
+    width: auto;
+}
+.dflex{
+    display: inline;    
+}

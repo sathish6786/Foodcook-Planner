@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./indexstyle.css">
+</head>
+<body>
+    <div class="container">
+    <header>🍔🍜Food cook planner <span style="font-size: small;"><a href="index.html">Back</a></span></header>
+    <center>
+    <h2 style="margin:20px; padding:10px; font-family: Arial, Helvetica, sans-serif;">Feedback Form</h2>
+    <main class="main" style="width: 700px;">
+    <form name="feedback">
+        <div>  
+            <input required type="text" name="fullname" placeholder="Enter your name">
+        </div>
+        <div>
+            <input required type="email" name="email" placeholder="awsome@gmail.com">
+        </div>
+        <div  class="dflex">
+        <div  class="dflex">
+            <input type="radio" name="type" id="general feedback" value="general feedback">
+            <label for="general feedback">General feedback</label>
+        </div>
+        <div  class="dflex">
+            <input type="radio" name="type" id="technical support" value="technical support">
+            <label for="technical support">Technical support</label>
+        </div>
+        <div class="dflex">
+            <input type="radio" name="type" id="contribution" value="contribution">
+            <label for="contribution">Contribution</label>
+        </div>
+        </div>
+         <div>
+            <textarea required rows="5" name="description" placeholder="Enter your Feedback here!" style="background-color: gainsboro; "></textarea>
+        </div>
+        <div>
+            <button >submit</button>
+        </div>
+    </form>
+</main>
+</center>
+</div>
+<script src="feedback.js"></script>
+</body>
+</html>

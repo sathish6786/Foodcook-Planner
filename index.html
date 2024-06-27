@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./indexstyle.css">
+</head>
+<body>
+    <div class="container">
+    <header>🍔🍜Food cook planner <span style="font-size: small;"><a href="author.html" style="padding: 8px;">Author</a>   <a href="feedback.html">Feedback</a></span></header>
+    <main>
+        <div id="alert" hidden class="alert" onclick="output()"><strong>✅successfull </strong>food is updated</div>
+    <div id="div">    
+        <input id="input" class="input" placeholder="I like to eat...">
+        <button onclick="output()" id="btn">ADD</button>
+    </div>
+    <ul id="food-container" class="food-container">
+        <center>
+        <div id="foodcount"></div>
+         <div id="nolist">
+            <img src="https://st.depositphotos.com/13055596/51960/v/450/depositphotos_519604812-stock-illustration-hand-drawn-wok-set-asian.jpg" alt="not found" height="300px">
+         </div>
+        </center>
+    </ul> 
+    </div>
+    </main>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
